@@ -1,0 +1,154 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+#bg1{
+    background-image: url("assets/bg1.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+#bg2 {
+    background-image: url("assets/bg2.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    text-align: center;}
+
+#bg1:before {
+    display: inline-block;
+    content: '';
+    height: 100%;
+    vertical-align: middle;
+}
+#bg2:before {
+    display: inline-block;
+    content: '';
+    height: 100%;
+    vertical-align: middle;}
+
+span {
+    font-size: 50pt;
+    color: white;
+    float: left;
+    margin: 50px 0 0 70px;
+}
+ #fspan {
+     font-size: 150px;
+     margin: 240px 0 0 280px;
+ }
+
+ #ebcoffee {
+     font-size: 45pt;
+     color: brown;
+     font-family: cursive;
+ }
+
+ h1 {
+     margin-left: 20px;
+     font-size: 200%;
+     color:#260126;
+ }
+
+ .container{
+     width:95%;
+     overflow: hidden;
+     background: whitesmoke;
+     margin: 20px auto;
+     padding: 20px;
+ }
+
+  .container ul{
+      padding: 0;
+      width: 1000px;
+      margin-left: 120px;
+
+  }
+  .container ul li{
+      list-style:none;
+      float: left;
+      width:25%;
+      height:300px;
+      margin: 40px 30px 0 20px;
+      box-sizing: border-box;
+      border:2px solid white;
+      padding: 20px;
+      display: inline-table;
+  }
+
+ #pic1 {background-image: url(assets/espresso.jpg);}
+ #pic2 {background-image: url(assets/americano.jpg);}
+ #pic3 {background-image: url(assets/americano.jpg);}
+ #pic4 {background-image: url(assets/americano.jpg);}
+ #pic5 {background-image: url(assets/americano.jpg);}
+ #pic6 {background-image: url(assets/americano.jpg);}
+ #pic7 {background-image: url(assets/americano.jpg);}
+ #pic8 {background-image: url(assets/americano.jpg);}
+ #pic9 {background-image: url(assets/americano.jpg);}
+ #pic10 {background-image: url(assets/americano.jpg);}
+ #pic11 {background-image: url(assets/americano.jpg);}
+ #pic12 {background-image: url(assets/americano.jpg);}
+
+#pic1,#pic2,#pic3,#pic4, #pic5,#pic6,#pic7,#pic8,#pic9,#pic10,#pic11,#pic12
+    {background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 230px;
+    height: 230px;}
+
+ #pic1:hover {background-image: url(assets/espresso.png);}
+ #pic2:hover {background-image: url(assets/americano.png);}
+ #pic3:hover {background-image: url(assets/esspressomachiato.png);}
+ #pic4:hover {background-image: url(assets/lattemachiatto.png);}
+ #pic5:hover {background-image: url(assets/latte.png);}
+ #pic6:hover {background-image: url(assets/espressoconpanna.png);}
+ #pic7:hover {background-image: url(assets/flatwhite.png);}
+ #pic8:hover {background-image: url(assets/capuccino.png);}
+ #pic9:hover {background-image: url(assets/breve.png);}
+ #pic10:hover {background-image: url(assets/mocha.png);}
+ #pic11:hover {background-image: url(assets/affogato.png);}
+ #pic12:hover {background-image: url(assets/americano.png);}
+
+ #pic1:hover, #pic2:hover, #pic3:hover, #pic4:hover, #pic5:hover,#pic6:hover,
+ #pic7:hover, #pic8:hover, #pic9:hover, #pic10:hover, #pic11:hover, #pic12:hover {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 230px;
+    height: 230px;
+}
+ .container ul li:hover{
+     transition: 0.3;
+     cursor: pointer;
+     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+     z-index:1000;
+     /*opacity: 0.9;*/
+ }
+
+ .container ul li .title:hover{
+     background: #F2EEB3;
+ }
+
+ .container ul li .title{
+     width:100%;
+     height: 50px;
+     line-height: 50px;
+     background: #BFAF80;
+     text-align: center;
+ }
+
+ @media screen and (max-width:1250px){
+     .container{
+         width:100%;
+         padding: 0;
+     }
+
+     .container ul li{
+         float: none;
+         width:90%;
+         margin: 40px auto;
+     }
+ }

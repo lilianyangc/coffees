@@ -1,0 +1,85 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial;}
+#bg2 {
+    display: inline-block;}
+#back {
+    margin-top: 20px;
+    margin-left: 60px;
+    display: inline-block;}
+#back img {
+    display: block;}
+#back span {
+    margin: 0 0 0 40px;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: dotted;
+    float: none;
+}
+.container{
+    background-image: url("assets/bg2.jpg");
+    background-repeat: repeat-y;
+    background-size: cover;
+    padding: 25px 0 0 30px;
+    }
+#paragraph {
+    font-size: 18px;}
+.coffeeitems {
+    color: beige;
+    font-size: 25px;
+    font-weight: bold;
+    border: 4px solid #5e4230;
+    width: 350px;
+    height:400px;
+    margin: 50px 50px;
+    display: inline-block;}
+span {
+    font-size: 50pt;
+    float: left;
+    font-weight: bold;
+    margin: 50px 0 0 70px;
+    display: inline-block;}
+#par{ width: 70%;
+    display: block;
+    font-size: 25px;
+    font-weight: bold;}
+a {
+    color: beige;
+    text-decoration: none;}
+a:hover {
+    color:beige;
+    text-decoration:none;
+    cursor:pointer;}
+ #fspan {
+     font-size: 150px;
+     margin: 240px 0 0 280px;
+ }
+.button {
+    border: none;
+    color: white;
+    padding: 35px 32px;
+    text-decoration: none;
+    font-size: 16px;
+}
+.buttonitems {
+    margin: 20px 80px 0 400px;
+}
+#coffeemaker {
+    background-image: url("assets/homecoffeemaker.jpg");}
+#espressomaker {
+    background-image: url("assets/espressomachine2.jpg");}
+#coffeemaker,#espressomaker {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    margin: 10px 0 0 25px;}
+#dudu {background-color: saddlebrown;
+        margin:10px 30px 0 20px;
+        padding: 0;
+        opacity: 0.5;}
+u {color: beige;
+    opacity: .7;}
+
