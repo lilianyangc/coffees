@@ -1,2 +1,2 @@
-# lilianyangc.github.io/coffees
+# lilianyangc.github.io/index/coffees
 my first html & css website
